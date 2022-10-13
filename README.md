@@ -1,6 +1,6 @@
 # Git Addons
 
-My collection of git addons.
+My collection of git addons as shell commands.
 
 # Installation
 

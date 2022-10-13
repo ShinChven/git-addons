@@ -2,4 +2,8 @@
 
 git add .
 
-git commit "$*"
+if [ $1 ]; then
+  git commit $*
+else
+  git commit
+fi
