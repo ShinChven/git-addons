@@ -3,8 +3,8 @@
 # Create a new tag and push it to the remote.
 # This script will override existing tag with the same name.
 
-git tag -d $1 || true
-git tag $1
+git tag -d $1 || true                           # Remove local tag if it exists.
+git tag $1                                      # Create new tag.
 
 echo "Push tag to origin remote?"
 
