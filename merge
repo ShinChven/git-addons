@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+BRANCH=${1:-master}
+
+git merge "$BRANCH"
