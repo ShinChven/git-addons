@@ -2,4 +2,5 @@
 
 BRANCH=${1:-master}
 
+git fetch
 git pull origin "$BRANCH"
