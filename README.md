@@ -1,6 +1,6 @@
 # Git Commands In Short
 
-> My Git Commands in Short
+> Make frequently used git commands short.
 
 ## Installation
 
