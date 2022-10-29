@@ -1,6 +1,6 @@
-# Git Addons
+# Git Commands In Short
 
-> My git addons.
+> My Git Commands in Short
 
 ## Installation
 
