@@ -4,7 +4,7 @@
 
 ## Installation
 
-Put these commands in your path and make them executable.
+Put these commands or this directory in your `$PATH` and make them executable.
 
 ## [amend](/amend) the last commit with the current changes.
 
