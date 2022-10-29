@@ -1,4 +1,4 @@
-# Git Commands In Short
+# Git Commands Short
 
 > Make frequently used git commands short.
 
