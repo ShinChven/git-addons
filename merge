@@ -1,5 +1,15 @@
 #!/usr/bin/env bash
 
-BRANCH=${1:-master}
+set -x
+
+# Read branch to merge
+BRANCH=$1
+
+# Check if a branch was provided
+if [ -z "$BRANCH" ]; then
+    echo "Please provide a branch to merge"
+    echo "merge <branch>"
+    exit 1
+fi
 
 git merge "$BRANCH"

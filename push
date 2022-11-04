@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
-BRANCH=${1:-master}
+set -x
+
+git fetch
+# Use the first argument as the branch name or read the current branch name
+BRANCH=${1:-$(git symbolic-ref --short HEAD)}
 
 git push origin "$BRANCH"
